@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+#header h2 {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.col-sm {
+    height: 300px;
+    border: #672A4E solid 2px;
+    background-color: #AF9AB2;
+    border-radius: 15px;
+    color: #672A4E;
+    margin: 10px;
+    text-align: center;
+    padding-top: 110px;
+}
+#keyboard {
+    text-align: center;
+    background-color: #AF9AB2;
+    border-radius: 15px;
+    color: #672A4E;
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+}
+#keyboard button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+#keyboard button:hover {
+    background-color: #AF9AB2;
+}
+#newGame {
+    text-align: center;
+    margin: 15px;
+}
+#newGame_button {
+    background-color: #AF9AB2;
+    border-color: #AF9AB2;
+    color: #820B8A;
+    font-size: 25px;
+}
