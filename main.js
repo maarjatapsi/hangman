@@ -1,3 +1,4 @@
+// Singleton
 class State {
     constructor(correct, wrongCount) {
         this.correct = correct;
@@ -94,10 +95,8 @@ function setGuess(guessArray){
     document.getElementById('guessString').innerHTML = `${output}`;
 }
 
-// Called when the game is over. 'New Game' button is now visible
+// Called when the game is over
 function endGame(result, word){
-    $('.btn-light').prop('disabled',true);
-    document.getElementById("newGame").removeAttribute('hidden');
     if(result){
         document.getElementById('panel_1').innerHTML = `<h1>You won!</h1>`;
     } else {
